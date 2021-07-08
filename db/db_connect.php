@@ -1,8 +1,8 @@
 <?php
-$hostname = '127.0.0.1';
-$hostlogin = 'root';
-$hostpassword = '';
-$databasename = 'test';
+$hostname = 'remotemysql.com';
+$hostlogin = 'dzMPmAtX71';
+$hostpassword = '2kXyuxcowv';
+$databasename = 'dzMPmAtX71';
 
 //Folder Name Change Only Necessary
 $appfoldername = 'hms';
