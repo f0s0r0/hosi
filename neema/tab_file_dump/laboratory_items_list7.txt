@@ -1,0 +1,311 @@
+Serial	TestCode	TestName	Pruchase	Rate	Unit	Category	Tax	Reference	Serial
+1	LT001	Total Count (TC)	0	0	cells / mm3	Haematology - Male	0	5000 – 11000 cells / mm3	1
+2	LT002	Differential Count (DC)	0	0		Haematology - Male	0		2
+3	LT003	Polymorphs	0	0	%	Haematology - Male	0	50 – 62 %	3
+4	LT004	Lymphocytes	0	0	%	Haematology - Male	0	25 – 40 %	4
+5	LT005	Eosinophils	0	0	%	Haematology - Male	0	0 – 3 %	5
+6	LT006	Erythrocyte Sedimentation Rate (ESR) (By Westergren’s Method) - 30 mts	0	0	mm	Haematology - Male	0		6
+7	LT007	Erythrocyte Sedimentation Rate (ESR) (By Westergren’s Method) - 60 mts	0	0	mm	Haematology - Male	0	Less than 15 mm	7
+8	LT008	Red Blood Cell Count (RBC)	0	0	x 106 cells / mm3	Haematology - Male	0	4.5 – 5.5 x 106 cells / mm3	8
+9	LT009	Hemoglobin (Hb)	0	0	g/dl	Haematology - Male	0	14– 17.4 g/dl	9
+10	LT010	Hematocrit (PCV)	0	0	%	Haematology - Male	0	42 – 52 %	10
+11	LT011	Mean Corpuscular Volume (MCV)	0	0	fL	Haematology - Male	0	84 – 96 fL	11
+12	LT012	Mean Corpuscular Hemoglobin (MCH)	0	0	pg	Haematology - Male	0	28 – 34 pg	12
+13	LT013	Mean Corpuscular Hemoglobin Concentration (MCHC)	0	0	g/dl	Haematology - Male	0	32 – 36 g/dl	13
+14	LT014	Platelet Count (Plt)	0	0	cells	Haematology - Male	0	140000 – 400000 cells	14
+15	LT015	Total Count (TC)	0	0	cells / mm3	Haematology - Female	0	5000 – 11000 cells / mm3	15
+16	LT016	Polymorphs	0	0	%	Haematology - Female	0	50 – 62 %	16
+17	LT017	Lymphocytes	0	0	%	Haematology - Female	0	25 – 40 %	17
+18	LT018	Eosinophils	0	0	%	Haematology - Female	0	0 – 3 %	18
+19	LT019	Erythrocyte Sedimentation Rate (ESR) (By Westergren’s Method) - 30 mts	0	0	mm	Haematology - Female	0		19
+20	LT020	Erythrocyte Sedimentation Rate (ESR) (By Westergren’s Method) - 60 mts	0	0	mm	Haematology - Female	0	Less than 20 mm	20
+21	LT021	Red Blood Cell Count (RBC)	0	0	x 106 cells / mm3	Haematology - Female	0	4.0 – 5.0 x 106 cells / mm3	21
+22	LT022	Hemoglobin (Hb)	0	0	g/dl	Haematology - Female	0	12 – 16 g/dl	22
+23	LT023	Hematocrit (PCV)	0	0	%	Haematology - Female	0	36 – 48 %	23
+24	LT024	Mean Corpuscular Volume (MCV)	0	0	fL	Haematology - Female	0	84 – 96 fL	24
+25	LT025	Mean Corpuscular Hemoglobin (MCH)	0	0	pg	Haematology - Female	0	28 – 34 pg	25
+26	LT026	Mean Corpuscular Hemoglobin Concentration (MCHC)	0	0	g/dl	Haematology - Female	0	32 – 36 g/dl	26
+27	LT027	Platelet Count (Plt)	0	0	cells	Haematology - Female	0	140000 – 400000 cells	27
+28	LT028	Total Count (TC)	0	0	cells / mm3	Haematology - 1 To 6 Years	0	5000 – 19000 cells / mm3	28
+29	LT029	Polymorphs	0	0	%	Haematology - 1 To 6 Years	0	13 – 33 %	29
+30	LT030	Lymphocytes	0	0	%	Haematology - 1 To 6 Years	0	46 – 76 %	30
+31	LT031	Eosinophils	0	0	%	Haematology - 1 To 6 Years	0	0 – 3 %	31
+32	LT032	30 mts	0	0	mm	Haematology - 1 To 6 Years	0		32
+33	LT033	60 mts	0	0	mm	Haematology - 1 To 6 Years	0	Less than 15 mm	33
+34	LT034	Red Blood Cell Count (RBC)	0	0	x 106 cells / mm3	Haematology - 1 To 6 Years	0	3.9 – 5.3 x 106 cells / mm3	34
+35	LT035	Hemoglobin (Hb)	0	0	g/dl	Haematology - 1 To 6 Years	0	9.5 – 14.1 g/dl	35
+36	LT036	Hematocrit (PCV)	0	0	%	Haematology - 1 To 6 Years	0	30 – 40 %	36
+37	LT037	Mean Corpuscular Volume (MCV)	0	0	fL	Haematology - 1 To 6 Years	0	70 – 84 fL	37
+38	LT038	Mean Corpuscular Hemoglobin (MCH)	0	0	pg	Haematology - 1 To 6 Years	0	23 – 29 pg	38
+39	LT039	Mean Corpuscular Hemoglobin Concentration (MCHC)	0	0	g/dl	Haematology - 1 To 6 Years	0	31 – 35 g/dl	39
+40	LT040	Platelet Count (Plt)	0	0	cells	Haematology - 1 To 6 Years	0	140000 – 400000 cells	40
+41	LT041	Total Count (TC)	0	0	cells / mm3	Haematology - 6 To 16 Years	0	4800 – 10800 cells / mm3	41
+42	LT042	Polymorphs	0	0	%	Haematology - 6 To 16 Years	0	32 – 54 %	42
+43	LT043	Lymphocytes	0	0	%	Haematology - 6 To 16 Years	0	27 – 57 %	43
+44	LT044	Eosinophils	0	0	%	Haematology - 6 To 16 Years	0	0 – 3 %	44
+45	LT045	Erythrocyte Sedimentation Rate (ESR) (By Westergren’s Method) - 30 mts	0	0	mm	Haematology - 6 To 16 Years	0		45
+46	LT046	Erythrocyte Sedimentation Rate (ESR) (By Westergren’s Method) - 60 mts	0	0	mm	Haematology - 6 To 16 Years	0	Less than 15 mm	46
+47	LT047	Red Blood Cell Count (RBC)	0	0	x 106 cells / mm3	Haematology - 6 To 16 Years	0	4.0 – 5.2 x 106 cells / mm3	47
+48	LT048	Hemoglobin (Hb)	0	0	g/dl	Haematology - 6 To 16 Years	0	10.3 – 14.9 g/dl	48
+49	LT049	Hematocrit (PCV)	0	0	%	Haematology - 6 To 16 Years	0	32 – 42 %	49
+50	LT050	Mean Corpuscular Volume (MCV)	0	0	fL	Haematology - 6 To 16 Years	0	73 – 87 fL	50
+51	LT051	Mean Corpuscular Hemoglobin (MCH)	0	0	pg	Haematology - 6 To 16 Years	0	24 – 30 pg	51
+52	LT052	Mean Corpuscular Hemoglobin Concentration (MCHC)	0	0	g/dl	Haematology - 6 To 16 Years	0	32 – 36 g/dl	52
+53	LT053	Platelet Count (Plt)	0	0	cells	Haematology - 6 To 16 Years	0	140000 – 400000 cells	53
+54	LT054	Total Count (TC)	0	0	cells / mm3	Haematology - Birth To 2Week	0	9000 – 30000 cells / mm3	54
+55	LT055	Polymorphs	0	0	%	Haematology - Birth To 2Week	0	52 – 62 %	55
+56	LT056	Lymphocytes	0	0	%	Haematology - Birth To 2Week	0	26 – 36 %	56
+57	LT057	Eosinophils	0	0	%	Haematology - Birth To 2Week	0	0 – 2 %	57
+58	LT058	Monocytes	0	0	%	Haematology - Birth To 2Week	0	0 – 1 %	58
+59	LT059	Erythrocyte Sedimentation Rate (ESR) (By Westergren’s Method) - 30 mts	0	0	mm	Haematology - Birth To 2Week	0		59
+60	LT060	Erythrocyte Sedimentation Rate (ESR) (By Westergren’s Method) - 60 mts	0	0	mm	Haematology - Birth To 2Week	0	Less than 10 mm	60
+61	LT061	Red Blood Cell Count (RBC)	0	0	x 106 cells / mm3	Haematology - Birth To 2Week	0	4.1 – 6.1 x 106 cells / mm3	61
+62	LT062	Hemoglobin (Hb)	0	0	g/dl	Haematology - Birth To 2Week	0	14.5 – 24.5 g/dl	62
+63	LT063	Hematocrit (PCV)	0	0	%	Haematology - Birth To 2Week	0	44 – 64 %	63
+64	LT064	Mean Corpuscular Volume (MCV)	0	0	fL	Haematology - Birth To 2Week	0	98 – 112 fL	64
+65	LT065	Mean Corpuscular Hemoglobin (MCH)	0	0	pg	Haematology - Birth To 2Week	0	34 – 40 pg	65
+66	LT066	Mean Corpuscular Hemoglobin Concentration (MCHC)	0	0	g/dl	Haematology - Birth To 2Week	0	33 – 37 g/dl	66
+67	LT067	Platelet Count (Plt)	0	0	cells	Haematology - Birth To 2Week	0	150000 – 450000 cells	67
+68	LT068	Total Count (TC)	0	0	cells / mm3	Haematology - 2Week To 8Week	0	5000 – 21000 cells / mm3	68
+69	LT069	Polymorphs	0	0	%	Haematology - 2Week To 8Week	0	14 – 49 %	69
+70	LT070	Lymphocytes	0	0	%	Haematology - 2Week To 8Week	0	38 – 71 %	70
+71	LT071	Eosinophils	0	0	%	Haematology - 2Week To 8Week	0	0 – 4 %	71
+72	LT072	Monocytes	0	0	%	Haematology - 2Week To 8Week	0	0 – 1 %	72
+73	LT073	Erythrocyte Sedimentation Rate (ESR) (By Westergren’s Method) - 30 mts	0	0	mm	Haematology - 2Week To 8Week	0		73
+74	LT074	Erythrocyte Sedimentation Rate (ESR) (By Westergren’s Method) - 60 mts	0	0	mm	Haematology - 2Week To 8Week	0	Less than 10 mm	74
+75	LT075	Red Blood Cell Count (RBC)	0	0	x 106 cells / mm3	Haematology - 2Week To 8Week	0	4 – 6 x 106 cells / mm3	75
+76	LT076	Hemoglobin (Hb)	0	0	g/dl	Haematology - 2Week To 8Week	0	12.5 – 20.5 g/dl	76
+77	LT077	Hematocrit (PCV)	0	0	%	Haematology - 2Week To 8Week	0	35 – 59 %	77
+78	LT078	Mean Corpuscular Volume (MCV)	0	0	fL	Haematology - 2Week To 8Week	0	98 – 112 fL	78
+79	LT079	Mean Corpuscular Hemoglobin (MCH)	0	0	pg	Haematology - 2Week To 8Week	0	30 – 36 pg	79
+80	LT080	Mean Corpuscular Hemoglobin Concentration (MCHC)	0	0	g/dl	Haematology - 2Week To 8Week	0	32 – 36 g/dl	80
+81	LT081	Platelet Count (Plt)	0	0	cells	Haematology - 2Week To 8Week	0	150000 – 450000 cells	81
+82	LT082	Total Count (TC)	0	0	cells / mm3	Haematology - 2Month To 6Month	0	5000 – 19000 cells / mm3	82
+83	LT083	Polymorphs	0	0	%	Haematology - 2Month To 6Month	0	15 – 35 %	83
+84	LT084	Lymphocytes	0	0	%	Haematology - 2Month To 6Month	0	42 – 72 %	84
+85	LT085	Eosinophils	0	0	%	Haematology - 2Month To 6Month	0	0 – 3 %	85
+86	LT086	Monocytes	0	0	%	Haematology - 2Month To 6Month	0	0 – 1 %	86
+87	LT087	Erythrocyte Sedimentation Rate (ESR) (By Westergren’s Method) - 30 mts	0	0	mm	Haematology - 2Month To 6Month	0		87
+88	LT088	Erythrocyte Sedimentation Rate (ESR) (By Westergren’s Method) - 60 mts	0	0	mm	Haematology - 2Month To 6Month	0	Less than 10 mm	88
+89	LT089	Red Blood Cell Count (RBC)	0	0	x 106 cells / mm3	Haematology - 2Month To 6Month	0	3.8 – 5.6 x 106 cells / mm3	89
+90	LT090	Hemoglobin (Hb)	0	0	g/dl	Haematology - 2Month To 6Month	0	10.7 – 17.3 g/dl	90
+91	LT091	Hematocrit (PCV)	0	0	%	Haematology - 2Month To 6Month	0	35 – 49 %	91
+92	LT092	Mean Corpuscular Volume (MCV)	0	0	fL	Haematology - 2Month To 6Month	0	83 – 97 fL	92
+93	LT093	Mean Corpuscular Hemoglobin (MCH)	0	0	pg	Haematology - 2Month To 6Month	0	27 – 33 pg	93
+94	LT094	Mean Corpuscular Hemoglobin Concentration (MCHC)	0	0	g/dl	Haematology - 2Month To 6Month	0	31 – 35 g/dl	94
+95	LT095	Platelet Count (Plt)	0	0	cells	Haematology - 2Month To 6Month	0	150000 – 450000 cells	95
+96	LT096	Total Count (TC)	0	0	cells / mm3	Haematology - 6Month To 1Year	0	5000 – 19000 cells / mm3	96
+97	LT097	Polymorphs	0	0	%	Haematology - 6Month To 1Year	0	13 – 33 %	97
+98	LT098	Lymphocytes	0	0	%	Haematology - 6Month To 1Year	0	46 – 76 %	98
+99	LT099	Eosinophils	0	0	%	Haematology - 6Month To 1Year	0	0 – 3 %	99
+100	LT100	Monocytes	0	0	%	Haematology - 6Month To 1Year	0	0 – 1 %	100
+101	LT101	Erythrocyte Sedimentation Rate (ESR) (By Westergren’s Method) - 30 mts	0	0	mm	Haematology - 6Month To 1Year	0		101
+102	LT102	Erythrocyte Sedimentation Rate (ESR) (By Westergren’s Method) - 60 mts	0	0	mm	Haematology - 6Month To 1Year	0	Less than 10 mm	102
+103	LT103	Red Blood Cell Count (RBC)	0	0	x 106 cells / mm3	Haematology - 6Month To 1Year	0	3.8 – 5.2 x 106 cells / mm3	103
+104	LT104	Hemoglobin (Hb)	0	0	g/dl	Haematology - 6Month To 1Year	0	9.9 – 14.5 g/dl	104
+105	LT105	Hematocrit (PCV)	0	0	%	Haematology - 6Month To 1Year	0	29 – 43 %	105
+106	LT106	Mean Corpuscular Volume (MCV)	0	0	fL	Haematology - 6Month To 1Year	0	73 – 87 fL	106
+107	LT107	Mean Corpuscular Hemoglobin (MCH)	0	0	pg	Haematology - 6Month To 1Year	0	24 – 30 pg	107
+108	LT108	Mean Corpuscular Hemoglobin Concentration (MCHC)	0	0	g/dl	Haematology - 6Month To 1Year	0	32 – 36 g/dl	108
+109	LT109	Platelet Count (Plt)	0	0	cells	Haematology - 6Month To 1Year	0	150000 – 450000 cells	109
+110	LT110	Fibrinogen	0	0	mg/dl	Haematology	0	150 – 400 mg/dl	110
+111	LT111	Troponin T	0	0	ng/ml	Haematology	0	Normal: <0.01 ng/ml; Borderline: 0.01-0.09 ng/ml;	111
+112	LT112	Troponin I - (By ECLI Method)	0	0	ng/ml	Haematology	0	Myocardial: >0.10 ng/ml; 0.12 – 0.60 ng/ml	112
+113	LT113	G6 PD - (By ECLI Method)	0	0	U/g Hb	Haematology	0	Adult : 4.6 – 13.5 U/g Hb	113
+114	LT114	Lupus Anticoagulants – Screen	0	0	Seconds	Coagulation	0	28 - 45 Seconds	114
+115	LT115	Lupus Anticoagulants – Confirmation	0	0	Seconds	Coagulation	0	28 - 40 Seconds	115
+116	LT116	Blood Glucose Fasting	0	0	mg/dl	Biochemistry	0	Adult: 70 – 110 mg/dl	116
+117	LT117	Urine Glucose Fasting	0	0		Biochemistry	0		117
+118	LT118	Blood Glucose Postprandial	0	0	mg/dl	Biochemistry	0	110 – 160 mg/dl	118
+119	LT119	Urine Glucose Postprandial	0	0		Biochemistry	0		119
+120	LT120	Blood Glucose Random	0	0	mg/dl	Biochemistry	0	80 – 140 mg/dl	120
+121	LT121	Urine Glucose Random	0	0		Biochemistry	0		121
+122	LT122	Blood Urea	0	0	mg/dl	Biochemistry	0	Male: 19 – 42 mg/dl;Female: 15 – 35 mg/dl	122
+123	LT123	Serum Creatinine	0	0	mg/dl	Biochemistry	0	Male: 0.8 – 1.5 mg/dl;Female: 0.7 – 1.2;Adult: 9 - 30 µmol/L;	123
+124	LT124	Plasma Ammonia	0	0	µmol/L	Biochemistry	0	Child: 21 – 50; 2 Weeks: 56 – 92; Neonate: 64 – 107 µmol/L	124
+125	LT125	Serum Ferritin (By ECLI Method)	0	0	ng/ml	Biochemistry	0	Men: 30 – 400 ng/ml; Women: 13 – 150 ng/ml	125
+126	LT126	Serum Total Iron	0	0	µg/dl	Biochemistry	0	Male: 65 – 170 µg/dl; Female: 50 – 170 µg/dl;	126
+127	LT127	TIBC	0	0	µg/dl	Biochemistry	0	250 – 400 µg/dl	127
+128	LT128	Serum Zinc	0	0	µg/dl	Biochemistry	0	60 – 120 µg/dl	128
+129	LT129	Serum Copper	0	0	µg/dl	Biochemistry	0	Men: 70 – 140 µg/dl; Women: 80 – 155 µg/dl; Pregnant Women: 118 – 302 µg/dl; Children 6 – 12yrs: 80 – 190 µg/dl; Infants: 20 – 70 µg/dl	129
+130	LT130	Folic Acid (By ECLI Method)	0	0	ng/ml	Biochemistry	0	Normal : 3.1-17.5 ng/ml; Borderline deficient : 2.2-3.0 ng/ml; Deficient : < 2.2 ng/ml; Excessive : > 17.5 ng/ml	130
+131	LT131	Transferrin	0	0	mg/dl	Biochemistry	0	200 - 360 mg/dl	131
+132	LT132	HbA1c	0	0	%	Biochemistry	0	Normal: 4.5 – 6.3 %	132
+133	LT133	(By High Performance Liquid Chromatography Method)	0	0		Biochemistry	0	Good Control: Up to 7 %; Fair Control: 7.1 – 8 %; Poor Control: 8.1 & more	133
+134	LT134	Blood Urea Nitrogen(BUN)	0	0	mg/dl	Biochemistry	0	7 – 21 mg/dl;	134
+135	LT135	Anti CCP (By ELISA Method)	0	0	U/ml	Biochemistry	0	0 - 6.25 U/ml	135
+136	LT136	Uric acid	0	0	mg/dl	Biochemistry	0	Male: 3.5 – 8.5 mg/d; Female: 2.5 – 6.2 mg/dl	136
+137	LT137	Alcohol	0	0	mg/dl	Biochemistry	0	"30 – 120 mg/dl: Slowed reflexes, diminution of attention, judgment and control; 120 – 250 mg/dl: Reduced visual acuity and increased reaction time; 250 – 350 mg/dl: Muscular incoordination, decreased response to stimuli; > 350 mg/dl: Impairment of circulation and respiration,possible death"	137
+138	LT138	Vitamin B 12 (By Chemiluminescence Method)	0	0	pg/ml	Biochemistry	0	180 – 914 pg/ml	138
+139	LT139	Ceruloplasmin (By Immunoturbidimetry Method)	0	0	mg/dL	Biochemistry	0	15 – 60 mg/dL	139
+140	LT140	Serum Total Cholesterol	0	0	mg/dl	Lipid Profile	0	Adult: Desirable: < 200 mg/dl; Borderline high: 200 – 239; High: > 240 mg/dl	140
+141	LT141	Serum Triglycerides	0	0	mg/dl	Lipid Profile	0	Adult: Normal: < 150 mg/dl; Borderline High: 150 – 199; High: 200 – 499 mg/dl; Very High: > 500 mg/dl	141
+142	LT142	Serum HDL Cholesterol (Direct Estimation Method)	0	0	mg/dl	Lipid Profile	0	Low: < 40 mg/dl; High: > 60 mg/dl	142
+143	LT143	Serum LDL Cholesterol (Direct Estimation Method)	0	0	mg/dl	Lipid Profile	0	Adult: Optimal: < 100 mg/dl; Above optimal: 100 – 129; Borderline High: 130 – 159; High: 160 – 189; Very High: > 190 mg/dl;	143
+144	LT144	Serum VLDL Cholesterol	0	0	mg/dl	Lipid Profile	0	Optimal: < 30 mg/dl	144
+145	LT145	Cholesterol / HDL Ratio	0	0		Lipid Profile	0		145
+146	LT146	LDL / HDL Ratio	0	0		Lipid Profile	0		146
+147	LT147	Serum Bilirubin Total	0	0	mg/dl	Liver Function Test	0	Adult: 0.1 – 1.1 mg/dl; Neonate: 0.6 – 10.5 mg/dl	147
+148	LT148	Direct	0	0	mg/dl	Liver Function Test	0	Adult: upto 0.3 mg/dl; Neonate: upto 0.6 mg/dl	148
+149	LT149	Indirect	0	0	mg/dl	Liver Function Test	0	0.1 – 1.2 mg/dl	149
+150	LT150	Serum Total Protein	0	0	gm/dl	Liver Function Test	0	6.3 – 8.2 gm/dl	150
+151	LT151	Serum Albumin	0	0	gm/dl	Liver Function Test	0	3.5 – 5.0 gm/dl	151
+152	LT152	Serum Globulin	0	0	gm/dl	Liver Function Test	0	2.3 – 3.5 gm/dl	152
+153	LT153	A/G Ratio	0	0		Liver Function Test	0		153
+154	LT154	Serum Aspartate Amino Transferase (AST/SGOT)	0	0	U/L	Enzymes	0	> 60 Yrs: 15 – 46; Male: 17 – 59; Female: 14 – 36 U/L	154
+155	LT155	Serum Alanine Amino Transferase (ALT/SGPT)	0	0	U/L	Enzymes	0	> 60 Yrs: 13 – 69; Male: 21 – 72;Female: 9 – 52 U/L	155
+156	LT156	Serum Gamma Glutamyltransferase (GGT)	0	0	U/L	Enzymes	0	> 60 Yrs: 12 – 58; Male: 15 – 73;Female: 12 – 43 U/L	156
+157	LT157	Serum Alkaline Phosphatase	0	0	U/L	Enzymes	0	38 – 126 U/L	157
+158	LT158	Serum Lactate Dehydrogenase(LDH)	0	0	U/L	Enzymes	0	Male: 80 – 285 U/L; Female: 103 – 227 U/L	158
+159	LT159	Serum Amylase	0	0	U/L	Enzymes	0	30 – 110 U/L	159
+160	LT160	Serum Lipase	0	0	U/L	Enzymes	0	23 – 300 U/L	160
+161	LT161	Creatinine Kinase (CK)	0	0	U/L	Enzymes	0	Male: 55 – 170 U/L; Female: 30 – 135 U/L	161
+162	LT162	Creatinine Kinase – MB (CKMB)	0	0	U/L	Enzymes	0	1 – 24 U/L	162
+163	LT163	Serum Acid Phosphatase	0	0	U/L	Enzymes	0	Normal: Upto 10.0 U/L	163
+164	LT164	(BY Naphthyl Phosphate/Pentanediol Method)	0	0		Enzymes	0		164
+165	LT165	Prostatic Acid Phosphatase	0	0	U/L	Enzymes	0	Normal: Upto 3.5 U/L	165
+166	LT166	Cholinesterase	0	0	U/L	Enzymes	0	Men: 4620 – 11500 U/L	166
+167	LT167	(By Butrylthiocholine Method)	0	0		Enzymes	0	Women:3930 -10800 U/L	167
+168	LT168	ADA	0	0	U/L	Enzymes	0	Upto 33 U/L	168
+169	LT169	Sodium	0	0	mEq/L	Serum Electrolytes	0	137 – 145 mEq/L	169
+170	LT170	Potassium	0	0	mEq/L	Serum Electrolytes	0	3.5 – 5.1 mEq/L	170
+171	LT171	Chloride	0	0	mEq/L	Serum Electrolytes	0	98 – 107 mEq/L	171
+172	LT172	Bicarbonate	0	0	mEq/L	Serum Electrolytes	0	22 – 30 mEq/L	172
+173	LT173	Calcium Total	0	0	mg/dl	Serum Electrolytes	0	8.2 – 10.2 mg/dl	173
+174	LT174	Calcium Ionized	0	0	mmol/L	Serum Electrolytes	0	1.05 – 1.35 mmol/L	174
+175	LT175	Calcium Non Ionized	0	0	mmol/L	Serum Electrolytes	0	1.09 – 1.35 mmol/L	175
+176	LT176	Magnesium	0	0	mg/dl	Serum Electrolytes	0	1.6 – 2.6 mg/dl	176
+177	LT177	Phosphorus (Inorganic)	0	0	mg/dl	Serum Electrolytes	0	Adults: 2.5 – 4.5 mg/dl; Children: 4 – 7 mg/dl	177
+178	LT178	Total Triiodothyronine (TT3) (By ECLI Method)	0	0	ng/dl	Hormone Assay 	0	80 - 200 ng/dl	178
+179	LT179	Total Thyroxine(TT4) (By ECLI Method)	0	0	µg/dl	Hormone Assay 	0	4.6 – 12.0 µg/dl	179
+180	LT180	Free Triiodothyronine (FT3) (By ECLI Method)	0	0	pg/ml	Hormone Assay 	0	2.0 – 4.4 pg/ml	180
+181	LT181	Free Thyroxine (FT4) (By ECLI Method)	0	0	ng/dl	Hormone Assay 	0		181
+182	LT182	"Thyroid Stimulating Hormone(TSH, Ultra sensitive) (By ECLI Method)"	0	0	µIU/ml	Hormone Assay 	0	0.27 – 4.2 µIU/ml	182
+183	LT183	Total Triiodothyronine (TT3) (By ECLI Method)	0	0	ng/dl	Hormone Assay 	0	Newborns : 0 -3 days: 96 – 292 ng/dl; 4 – 30 days: 62 – 243 ng/dl;	183
+184	LT184	Total Thyroxine (TT4) (By ECLI Method)	0	0	µg/dl	Hormone Assay 	0	Newborns: 0 -3 days: 5.37 – 22.4 µg/dl; 4 – 30 days: 5.24 – 23.2 µg/dl;	184
+185	LT185	"Thyroid Stimulating Hormone (TSH, Ultra sensitive) (By ECLI Method)"	0	0	µIU/ml	Hormone Assay 	0	Newborns : 0 -3 days: 5.17 – 14.6 µIU/ml; 4 – 30 days: 0.43 – 16.1µIU/ml;	185
+186	LT186	Free Thyroxine (FT4) (By ECLI Method)	0	0	ng/dl	Hormone Assay 	0	Newborns : 0 -3 days: 0.66 – 2.71 ng/dl; 4 – 30 days: 0.83 – 3.09 ng/dl;	186
+187	LT187	Luteinizing Hormone (LH) (By ECLI Method)	0	0	mIU/ml	Hormone Assay 	0	Female: Follicular Phase : 2.4 – 12.6; 	187
+188	LT188	Follicle Stimulating Hormone (FSH) (By ECLI Method)	0	0	mIU/ml	Hormone Assay 	0	Female: Follicular Phase: 3.5 – 12.5; Ovulatory Phase: 4.7 – 21.5; 	188
+189	LT189	Prolactin (By ECLI Method)	0	0	ng/ml	Hormone Assay 	0	Male : 4.04 – 15.2 ng/ml; Woman (not pregnant):	189
+190	LT190	Insulin (Fasting) (By ECLI Method)	0	0	µU/mL	Hormone Assay 	0	Fasting: 2.6 – 24.9 µU/mL	190
+191	LT191	Anti-TSH Receptor Ab (By ECLI Method)	0	0	IU/l	Hormone Assay 	0	Upto 1.5 IU/l: Negative; 1.5 – 1.7 IU/l: Equivocal	191
+192	LT192	Beta HCG (By ECLI Method)	0	0	mIU/ml	Hormone Assay 	0	Adults: < 10 mIU/ml Negative; Weeks of Gestation; 3rd week : 5.8 – 71.2 mIU/ml ; 4th week : 9.5 – 750 mIU/ml ; 5th week : 217 – 7138 mIU/ml ; 6th week : 158 – 31795 mIU/ml ; 7th week :3697 – 163563 mIU/ml ; 8th week : 32065 – 149571 mIU/ml ; 9th week : 63803 – 151410 mIU/ml ; 10th week : 46509 – 186977 mIU/ml ; 12th week : 27832 – 210612 mIU/ml; 14th week : 13950 – 62530 mIU/ml ; 15th week : 12039 – 70971 mIU/ml ; 16th week : 9040 – 56451 mIU/ml ; 17th week : 8175 – 55868 mIU/ml ; 18th week : 8099 – 58176 mIU/ml 	192
+193	LT193	Progesterone (By ECLI Method)	0	0	ng/ml	Hormone Assay 	0	Men: 0.2 – 1.4 ng/ml; Women: Follicular phase: 0.2 – 1.5 ng/ml; Ovulation phase:0.8 – 3.0ng/ml; Luteal phase: 1.7 – 27 ng/ml; Postmenopause: 0.1 – 0.8 ng/ml	193
+194	LT194	Estradiol (E2) (By ECLI Method)	0	0	pg/ml	Hormone Assay 	0	Female:Follicular Phase: 12.53 – 165.5; Ovulatory Phase: 85.78 – 498; Luteal phase: 43.82 – 211; Post menopause: < 5 – 54.72 pg/ml; Pregnancy 1st Trimester : 215 – > 4300 pg/ml; Children (1-10 Yrs): Boys: < 5.00 – 20; Girls: 6 – 27 pg/ml; Male: < 7.63 – 42.59 pg/ml ;	194
+195	LT195	Serum PTH –Intact (By ECLI Method)	0	0	pg/ml	Hormone Assay 	0	15 – 65 pg/ml	195
+196	LT196	25 OH Vitamin D (By ECLI Method)	0	0	ng/ml	Hormone Assay 	0	Deficiency < 10 ng/ml; Insufficiency 10 – 30 ng/ml; Sufficiency 30 – 100 ng/ml; Toxicity > 100 ng/ml;	196
+197	LT197	Anti Microsomal Ab (By ECLI Method)	0	0	IU/ml	Hormone Assay 	0	5 – 34 IU/ml	197
+198	LT198	Anti Thyroglobulin Ab (By ECLI Method)	0	0	IU/ml	Hormone Assay 	0	< 115 IU/ml Negative; > 115 IU/ml Positive	198
+199	LT199	Anti TPO	0	0	IU/ml	Hormone Assay 	0	5 – 34 IU/ml;	199
+200	LT200	Cortisol (By CLIA Method)	0	0	µg/dl	Hormone Assay 	0	AM: 6.7–22.6 ?g/dl; PM: < 10 ?g/dl	200
+201	LT201	DHEA-S (By Chemiluminescence Method)	0	0	µg/dl	Hormone Assay 	0	Female: 18 – 21 yrs: 51 – 321 µg/dl; 21 – 30 yrs: 18 – 391 µg/dl; 31 – 40 yrs: 23 – 266 µg/dl; 41 – 50 yrs: 19 – 231 µg/dl; 51 – 60 yrs: 8 – 188 µg/dl; 61 – 70 yrs: 12 – 133 µg/dl; > 71 yrs: 7 – 177 µg/dl; Male: 18 – 21 yrs: 24 – 537 µg/dl; 21 – 30 yrs: 85 – 690 µg/dl; 31 – 40 yrs: 106 – 464 µg/dl; 41 – 50 yrs: 70 – 495 µg/dl; 51 – 60 yrs: 38 – 313 µg/dl; 61 – 70 yrs: 24 – 244 µg/dl; > 71 yrs: 5 – 253 µg/dl;	201
+202	LT202	Total Testosterone (By ECLI Method)	0	0	ng/ml	Hormone Assay 	0	Male: 2.49 – 8.36 ng/ml; Female: 0.084 – 0.481 ng/ml; > 50 yrs:Male: 1.93 – 7.40 ng/ml; Female: 0.029 – 0.408 ng/ml	202
+203	LT203	Testosterone Free (By Elisa Method)	0	0	pg/ml	Hormone Assay 	0	Male:4.25 –30.37 pg/ml; Female: 0.04 – 4.18 pg/ml;	203
+204	LT204	Thyroid Microsomal Ab (By ECLI Method)	0	0	IU/ml	Hormone Assay 	0	5 – 34 IU/ml	204
+205	LT205	C Peptide (Fasting) (By ELISA Method)	0	0	ng/ml	Hormone Assay 	0	Male:0.24 – 1.98 ng/ml; Female: 0.15 – 5.37 ng/ml	205
+206	LT206	C Peptide (PP) (By ELISA Method)	0	0	ng/ml	Hormone Assay 	0		206
+207	LT207	Anti Mullerian Hormone (AMH) (By ELISA Method)	0	0	ng/ml	Hormone Assay 	0	Negligible: < 0.2 ng/ml; Reduced: 0.2 – 1.0 ng/ml; Normal: 1.0 – 7.0 ng/ml; High: > 7.0 ng/ml	207
+208	LT208	Alfa Feto Protein (AFP) (By ECLI Method)	0	0	ng/ml	Tumour Marker Study 	0	0 – 7 ng/ml	208
+209	LT209	Carcinoembryonic Antigen (CEA) (By ECLI Method)	0	0	ng/ml	Tumour Marker Study 	0	Non smokers: Upto 5.0 ng/ml; Smokers: Upto 6.5 ng/ml	209
+210	LT210	CA 125 (By ECLI Method)	0	0	U/ml	Tumour Marker Study 	0	<35 U/ml : Negative; >35 U/ml : Positive	210
+211	LT211	CA 15 3 (By ECLI Method)	0	0	U/ml	Tumour Marker Study 	0	< 25 U/ml : Negative; > 25 U/ml : Positive	211
+212	LT212	CA 19 9 (By ECLI Method)	0	0	U/ml	Tumour Marker Study 	0	0 – 39 U/ml	212
+213	LT213	Free Prostate Specific Antigen (Free PSA) By (ECLI Method)	0	0	ng/ml	Tumour Marker Study 	0	0.05 – 0.25 ng/ml	213
+214	LT214	Total Prostate Specific Antigen (Total PSA) (By ECLI Method)	0	0	ng/ml	Tumour Marker Study 	0	Negative : <4.0 ng/ml; Positive : >4.0 ng/ml	214
+215	LT215	Carbamazepine	0	0	µg/ml	Serum Therapeutic Drug Assay	0	Therapeutic Level: 4 – 12 µg/ml	215
+216	LT216	ANCA-MPO (pANCA) (By Elisa Method)	0	0	IU/ml	Serology	0	Negative: < 5.0 IU/ml; Positive: > 5.0 IU/ml	216
+217	LT217	ANCA-PR3 (cANCA) (By Elisa Method)	0	0	IU/ml	Serology	0	Negative: < 3.5 IU/ml; Positive: > 3.5 IU/ml	217
+218	LT218	Anti Sperm Antibody (ASA) (By Elisa Method)	0	0	U/ml	Serology	0	0 – 60 U/ml	218
+219	LT219	Anti Nuclear Antibody (ANA) (By Elisa Method)	0	0	U/ml	Serology	0	Negative: < 10 ; Positive: > 10	219
+220	LT220	ASO Titre (ASO) (By Immuno Turbidimetry Method)	0	0	IU/ml	Serology	0	Negative: < 200 IU/ml; Positive: > 200 IU/ml	220
+221	LT221	C Reactive Protein (CRP) (By Immuno Turbidimetry Method)	0	0	mg/L	Serology	0	Negative: < 5 mg/L; Positive: > 5 mg/L	221
+222	LT222	Rheumatoid Factor (RF) (By Immuno Turbidimetry Method)	0	0	IU/ml	Serology	0	Negative: < 30 IU/ml; Positive: > 30 IU/ml	222
+223	LT223	hs CRP (Cardio CRP) (By Immunoturbidimetry Method)	0	0	mg/L	Serology	0	Male:5 – 13 yrs: < 1.45 mg/L; 14 – 18 yrs: < 2.13 mg/L; 19 – 39 yrs: < 2.68 mg/L; 40 – 49 yrs: < 4.80 mg/L; 50 – 64 yrs: < 7.90 mg/L; 65 – 99 yrs: < 6.80 mg/L; Female: 5 – 18 yrs: < 1.90 mg/L; 19 – 49 yrs: < 3.33 mg/L; 50 – 64 yrs: < 8.50 mg/L; 65 – 99 yrs: < 6.60 mg/L	223
+224	LT224	Anti TB – IgA (Mycobacterium tuberculosis Antibody – IgA) (By Elisa Method)	0	0	U	Serology	0	Negative: < 200 U; Equivocal: 201 - 350; Positive: > 350 U	224
+225	LT225	Anti TB – IgM (Mycobacterium tuberculosis Antibody – IgM) (By Elisa Method)	0	0	U	Serology	0	Negative: < 0.8 U; Equivocal: 0.8 – 1.0; Positive: > 1.0 U	225
+226	LT226	Anti TB – IgG (Mycobacterium tuberculosis Antibody – IgG) (By Elisa Method)	0	0	U	Serology	0	Negative: < 125; Equivocal: 125 – 225; Positive: > 225 U	226
+227	LT227	C3 (Third component of complement) (By Immunoturbidimetry Method)	0	0	mg/dL	Serology	0	Neonates: 70 – 196 mg/dL; Adults: 90 – 180 mg/dL	227
+228	LT228	C4 (Fourth component of complement) (By Immunoturbidimetry Method)	0	0	mg/dL	Serology	0	Neonates: 13 – 38 mg/dL; Adults: 10 – 40 mg/dL	228
+229	LT229	Cardiolipin Ab IgG (By Elisa Method)	0	0	GPL/ml	Serology	0	Negative :<10 GPL/ml; Positive :>10GPL/ml	229
+230	LT230	Cardiolipin Ab IgM (By Elisa Method)	0	0	MPL/ ml	Serology	0	Negative :<10 MPL/ml; Positive :>10 MPL/ ml	230
+231	LT231	Cardiolipin Ab IgA (By Elisa Method)	0	0	APL/ ml	Serology	0	Negative :<10 APL/ ml; Positive :>10 APL/ ml	231
+232	LT232	Phospholipid Ab IgM (By Elisa Method)	0	0	U/ml	Serology	0	Negative :<15 U/ml; Positive :>15 U/ml	232
+233	LT233	Phospholipid Ab IgG (By Elisa Method)	0	0	U/ml	Serology	0	Negative :<15 U/ml; Positive :>15 U/ml	233
+234	LT234	Ds DNA (Quantitative Assay) (By Elisa Method)	0	0	IU/ml	Serology	0	Negative < 50 IU/ml; Positive > 50 IU/ml	234
+235	LT235	Dengue Ab – IgM (By Elisa Method)	0	0	Negative	Serology	0		235
+236	LT236	Dengue Ab – IgG (By Elisa Method)	0	0	Negative	Serology	0		236
+237	LT237	Chikungunya – IgM	0	0	Negative	Serology	0		237
+238	LT238	Salmonella typhi “O”	0	0	Dilution	Blood Widal Test – Slide Method	0	Negative	238
+239	LT239	Salmonella typhi “H”	0	0	Dilution	Blood Widal Test – Slide Method	0	Negative	239
+240	LT240	Salmonella paratyphi “AH”	0	0	Dilution	Blood Widal Test – Slide Method	0	Negative	240
+241	LT241	Salmonella paratyphi “BH”	0	0	Dilution	Blood Widal Test – Slide Method	0	Negative	241
+242	LT242	Rh – Antibody ( Titre)	0	0		Blood Widal Test – Slide Method	0		242
+243	LT243	Leptospira Ab – IgM (By Elisa Method)	0	0	Panbiounit	Blood Widal Test – Slide Method	0	Negative :<9 ; Equivocal :9 – 11 	243
+244	LT244	Leptospira Ab – IgG (By Elisa Method)	0	0	Panbiounit	Blood Widal Test – Slide Method	0	Negative :<9 ; Equivocal :9 – 11 	244
+245	LT245	Leptospira Screening – MAT	0	0		Blood Widal Test – Slide Method	0		245
+246	LT246	Leptospira Screening – MAT	0	0		Blood Widal Test – Slide Method	0		246
+247	LT247	Leptospira Screening – Dark Field Microscopy (DFM)	0	0		Blood Widal Test – Slide Method	0		247
+248	LT248	Leptospira Screening – MSAT	0	0		Blood Widal Test – Slide Method	0		248
+249	LT249	Immunoglobulin E (IgE) (By ECLI Method)	0	0	IU/ml	Blood Widal Test – Slide Method	0	Neonates: Upto 1.5 IU/ml; Infants 1 yr: Upto 15 IU/ml;	249
+250	LT250	HCV Ab (Anti HCV) (By ECLI Method)	0	0	Reactive/Non Reactive	Blood Widal Test – Slide Method	0		250
+251	LT251	HIV I & II Ab (Anti HIV I & II) (By ECLI Method)	0	0	Reactive/Non Reactive	Blood Widal Test – Slide Method	0		251
+252	LT252	HAV Ab IgG (Anti HAV IgG) (By CLIA Method)	0	0	Negative/Positive	Blood Widal Test – Slide Method	0		252
+253	LT253	HAV Ab IgM (Anti HAV IgM)(By CLIA Method)	0	0	Negative/Positive	Blood Widal Test – Slide Method	0		253
+254	LT254	HBsAg (Surface Antigen) (By ECLI Method)	0	0	Reactive/Non Reactive	Blood Widal Test – Slide Method	0		254
+255	LT255	Anti HBc Total (HBc Ab Total)(By ECLI Method)	0	0	Negative/Positive	Blood Widal Test – Slide Method	0		255
+256	LT256	Anti HBc IgM (HBc Ab IgM) (By ECLI Method)	0	0	Negative/Positive	Blood Widal Test – Slide Method	0		256
+257	LT257	HBsAb (Anti HBs / HBs Titre) (Quantitative Assay) (By ECLI Method)	0	0	IU/L	Blood Widal Test – Slide Method	0	Anti HBs Level:·      Less than 10 IU/L : Revaccination to be done immediately; ·      10 – 100 IU/L : Revaccination to be done after 3 – 6 months; ·      100 – 1000 IU/L : Revaccination to be done after one year; ·      1000 – 10000 IU/L : Revaccination to be done after 3 – 5 years; ·      More than 10000 IU/L : Revaccination to be done after 7 years	257
+258	LT258	HEV Ab IgM (Anti HEV IgM) (By Elisa Method)	0	0	Negative/Positive	Blood Widal Test – Slide Method	0		258
+259	LT259	HBe Ag (By ECLI Method)	0	0	Negative / Positive	Blood Widal Test – Slide Method	0		259
+260	LT260	HBe Ab (Anti HBe) (By Elisa Method)	0	0	Negative / Positive	Blood Widal Test – Slide Method	0		260
+261	LT261	VDRL (By Haemagglutination Method)	0	0	Non Reactive / Reactive	Blood Widal Test – Slide Method	0		261
+262	LT262	TPHA (By Haemagglutination Method)	0	0	Non Reactive / Reactive	Blood Widal Test – Slide Method	0		262
+263	LT263	Toxoplasma Antibody–IgM (Toxo Ab– IgM) (By Elisa Method)	0	0		Torch Panel	0	Negative: < 0.9; Equivocal: 0.9 – 1.1; Positive: > 1.1	263
+264	LT264	Rubella Antibody – IgM(Rubella Ab–IgM) (By Elisa Method)	0	0		Torch Panel	0	Negative: < 0.9; Equivocal: 0.9 – 1.1; Positive: > 1.1	264
+265	LT265	Cyto Megalo Virus Antibody – IgM (CMV Ab – IgM) (By Elisa Method)	0	0		Torch Panel	0	Negative: < 0.9; Equivocal: 0.9 – 1.1; Positive: > 1.1	265
+266	LT266	Herpes Simplex Virus I& II Antibody – IgM (HSV I &II Ab – IgM) (By Elisa Method)	0	0		Torch Panel	0	Negative: < 0.9; Equivocal: 0.9 – 1.1; Positive: > 1.1	266
+267	LT267	Toxoplasma Antibody – IgG (Toxo Ab – IgG) (By Elisa Method)	0	0		Torch Panel	0	Negative: < 0.9; Equivocal: 0.9 – 1.1; Positive: > 1.1	267
+268	LT268	Rubella Antibody – IgG (Rubella Ab-IgG) (By Elisa Method)	0	0		Torch Panel	0	Negative: < 0.5; Equivocal: 0.5 – 1.1; Positive: > 1.1 	268
+269	LT269	Cyto Megalo Virus Antibody – IgG (CMV Ab – IgG) (By Elisa Method)	0	0		Torch Panel	0	Negative: < 0.9; Equivocal: 0.9 – 1.1; Positive: > 1.1 	269
+270	LT270	Herpes Simplex Virus I Antibody – IgG (HSV I Ab – IgG) (By Elisa Method)	0	0		Torch Panel	0	Negative: < 0.9; Equivocal: 0.9 – 1.1; Positive: > 1.1	270
+271	LT271	Herpes Simplex Virus II Antibody – IgG (HSV II Ab – IgG) (By Elisa Method)	0	0		Torch Panel	0	Negative: < 0.9; Equivocal: 0.9 – 1.1; Positive: > 1.1	271
+272	LT272	Urine for Pregnancy	0	0	Negative/Positive	Urine Analysis	0		272
+273	LT273	Bence Jones Protein	0	0	Negative/Positive	Urine Analysis	0		273
+274	LT274	24 Hrs Urine Analysis (Volume: __ ml)	0	0		Urine Analysis	0		274
+275	LT275	Protein	0	0	mg/dl in 24 hrs	Urine Analysis	0	42 - 225 mg/dl in 24 hrs	275
+276	LT276	Cortisol	0	0	ug/day	Urine Analysis	0	55.52 – 286 ug/day	276
+277	LT277	24 Hrs Oxalate (Enzymatic)	0	0	mg/24 hrs	Urine Analysis	0	7 – 44 mg/24 hrs	277
+278	LT278	Creatinine	0	0	mg/dl in 24 hrs	Urine Analysis	0	800 - 2800 mg/dl in 24 hrs	278
+279	LT279	VMA	0	0	mg/24 hrs	Urine Analysis	0	1.8 – 7.1 mg/24 hrs	279
+280	LT280	Sodium	0	0	mmol/24 hrs	Urine Analysis	0	40 - 220 mmol/24 hrs	280
+281	LT281	Potassium	0	0	mmol/24 hrs	Urine Analysis	0	25 – 125 mmol/24 hrs	281
+282	LT282	Chloride	0	0	mEq/24 hrs	Urine Analysis	0	110 – 250 mEq/24 hrs	282
+283	LT283	Bicarbonate	0	0	mEq/24 hrs	Urine Analysis	0		283
+284	LT284	Albumin	0	0	mg/24 hrs	Urine Analysis	0	15 - 150 mg/24 hrs	284
+285	LT285	Calcium	0	0	mg/24 hrs	Urine Analysis	0	Average diet: 100 – 240 mg/day; Low calcium diet: < 150 mg/day; High calcium diet: 240 – 300 mg/day	285
+286	LT286	Urea	0	0	mmol/24 hrs	Urine Analysis	0	428 - 714 mmol/24 hrs	286
+287	LT287	Uric Acid	0	0	mg/24 hrs	Urine Analysis	0	250 - 750 mg/24 hrs	287
+288	LT288	Phosphorus	0	0	gm/24 hrs	Urine Analysis	0	0.4 – 1.3 gm/24 hrs	288
+289	LT289	Copper	0	0	ug/24 hrs	Urine Analysis	0	10 – 60 ug/24 hrs	289
+290	LT290	Magnesium	0	0	mg/24 hrs	Urine Analysis	0	73 – 122 mg/24 hrs	290
+291	LT291	Creatinine Clearance	0	0	ml/min	Urine Analysis	0	Male:Upto 30 Yrs: 88 – 146 ml/min; 30 – 40 Yrs: 82 – 140; 40 – 50 Yrs: 75 – 133; 50 – 60: 68 – 126; 60 – 70: 61 – 120; 70 – 80: 55 – 113 ml/min;Female: Upto 30 Yrs: 81 – 134 ml/min;30 – 40 Yrs: 75 – 128; 40 – 50 Yrs: 69 – 122; 50 – 60: 64 – 116; 60 – 70: 58 – 110; 70 – 80: 52 – 105 ml/min	291
+292	LT292	Urine Spot Micro albumin	0	0	mg/l	Urine Analysis	0	·      Normal range: Less than 20 mg/l; ·      Microalbuminuria: 20 – 200 mg/l; ·      Macroalbuminuria: More than 200 mg/l	292
+293	LT293	Urine for Spot Urea	0	0	mmol/L	Urine Analysis	0		293
+294	LT294	Urine for Spot Sodium	0	0	mmol/L	Urine Analysis	0		294
+295	LT295	Urine for Spot Potassium	0	0	mmol/L	Urine Analysis	0		295
+296	LT296	Urine for Spot Protein	0	0	mg/dl	Urine Analysis	0		296
+297	LT297	Urine for Spot Creatinine	0	0	mg/dl	Urine Analysis	0		297
+298	LT298	Urine for Protein Creatinine Ratio	0	0		Urine Analysis	0		298
+299	LT299	Urine for Spot Uric acid	0	0	mg/dl	Urine Analysis	0		299
+300	LT300	Urine for Spot Calcium	0	0	mg/dl	Urine Analysis	0		300
+301	LT301	Cocaine	0	0	Negative / Positive	Drug Abuse Screening (Urine)	0		301
+302	LT302	Amphetamines	0	0	Negative / Positive	Drug Abuse Screening (Urine)	0		302
+303	LT303	Methamphetamines	0	0	Negative / Positive	Drug Abuse Screening (Urine)	0		303
+304	LT304	Morphine	0	0	Negative / Positive	Drug Abuse Screening (Urine)	0		304
+305	LT305	Tetrahydrocannabinol	0	0	Negative / Positive	Drug Abuse Screening (Urine)	0		305
+306	LT306	PCP	0	0	Negative / Positive	Drug Abuse Screening (Urine)	0		306
+307	LT307	Barbiturates	0	0	Negative / Positive	Drug Abuse Screening (Urine)	0		307
+308	LT308	Methadone	0	0	Negative / Positive	Drug Abuse Screening (Urine)	0		308
+309	LT309	Benzodiazepines	0	0	Negative / Positive	Drug Abuse Screening (Urine)	0		309
+310	LT310	Tricyclic anti-depressants	0	0	Negative / Positive	Drug Abuse Screening (Urine)	0		310

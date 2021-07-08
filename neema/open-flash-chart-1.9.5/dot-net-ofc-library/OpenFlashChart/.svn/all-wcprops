@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/openflashchart/!svn/ver/47/dot-net-ofc-library/OpenFlashChart
+END
+InnerBackground.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/openflashchart/!svn/ver/47/dot-net-ofc-library/OpenFlashChart/InnerBackground.cs
+END
+OpenFlashChart.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/openflashchart/!svn/ver/47/dot-net-ofc-library/OpenFlashChart/OpenFlashChart.csproj
+END
+Legend.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/openflashchart/!svn/ver/47/dot-net-ofc-library/OpenFlashChart/Legend.cs
+END
+LabelStyle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/openflashchart/!svn/ver/47/dot-net-ofc-library/OpenFlashChart/LabelStyle.cs
+END
+Chart.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/openflashchart/!svn/ver/47/dot-net-ofc-library/OpenFlashChart/Chart.cs
+END
+Graph.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/openflashchart/!svn/ver/47/dot-net-ofc-library/OpenFlashChart/Graph.cs
+END
+Title.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/openflashchart/!svn/ver/47/dot-net-ofc-library/OpenFlashChart/Title.cs
+END
+BackgroundImage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/openflashchart/!svn/ver/47/dot-net-ofc-library/OpenFlashChart/BackgroundImage.cs
+END
+LegendYRight.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/openflashchart/!svn/ver/47/dot-net-ofc-library/OpenFlashChart/LegendYRight.cs
+END
+LegendX.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/openflashchart/!svn/ver/47/dot-net-ofc-library/OpenFlashChart/LegendX.cs
+END
+LabelStyleYRight.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/openflashchart/!svn/ver/47/dot-net-ofc-library/OpenFlashChart/LabelStyleYRight.cs
+END
+LegendY.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/openflashchart/!svn/ver/47/dot-net-ofc-library/OpenFlashChart/LegendY.cs
+END
+LabelStyleX.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/openflashchart/!svn/ver/47/dot-net-ofc-library/OpenFlashChart/LabelStyleX.cs
+END
+LabelStyleY.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/openflashchart/!svn/ver/47/dot-net-ofc-library/OpenFlashChart/LabelStyleY.cs
+END

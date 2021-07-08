@@ -1,0 +1,11 @@
+Serial	Code	Product	PurchasePrice	SellingPrice	Unit	Category	TaxPercent
+1	M1739-100G	A7 Agar Base (Shepard’s Differential Agar Base)	300	390	NO	ELECTRONICS	5
+2	M1739-500G	A7 Agar Base (Shepard’s Differential Agar Base)	1500	1542	NO	ELECTRONICS	5
+3	FD253-5VL	Urea Solution	150	195	NO	ELECTRONICS	5
+4	FD253-5x5VL	Urea Solution	1400	1550	NO	ELECTRONICS	5
+5	FD254-5VL	Ureaplasma Selective Supplement	550	685	NO	ELECTRONICS	5
+6	FD254-5x5VL	Ureaplasma Selective Supplement	1700	1890	NO	ELECTRONICS	5
+7	FD255-5VL	Ureaplasma Growth Supplement	1140	1150	NO	ELECTRONICS	5
+8	FD255-5x5VL	Ureaplasma Growth Supplement	400	4250	NO	ELECTRONICS	5
+9	RM1239-100ML	Horse serum	1000	1997	NO	ELECTRONICS	5
+10	M874-500G	A-1 Broth	2500	2885	NO	ELECTRONICS	5

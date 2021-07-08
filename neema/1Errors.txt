@@ -1,0 +1,6 @@
+1. Visit Entry Customer Data Auto Populate Is Not Working.
+2. Sub menu links are append with billingretail url links.
+3. Billing page, new text boxes not even given name or id.
+4. If default department and doctor name is given, what is need for select dept or doctor?
+5. Why all sub menus are having sub menu autonumbers appended?
+6. Triage list not work. Problem in date sql query.

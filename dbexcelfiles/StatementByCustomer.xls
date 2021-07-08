@@ -1,0 +1,99 @@
+<style type="text/css">
+<!--
+.style1 {font-size: 10px}
+.style12 {font-size: 12px; font-weight: bold; }
+.style13 {font-size: 12px}
+.bodytext31 {FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #3b3b3c; FONT-FAMILY: Tahoma
+}
+-->
+</style>
+<script language="javascript">
+
+function escapekeypressed()
+{
+	//alert(event.keyCode);
+	if(event.keyCode=='27'){ window.close(); }
+}
+
+</script>
+<!--onLoad="window.print();"-->
+<body  onkeydown="escapekeypressed()">
+<table id="AutoNumber3" style="BORDER-COLLAPSE: collapse" 
+            bordercolor="#666666" cellspacing="0" cellpadding="4" width="960" 
+            align="left" border="1">
+  <tbody>
+    <tr>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td colspan="5" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>Statement By Customer </strong></div></td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td colspan="5" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>MILLENNIUM HOSPITALS</strong>&nbsp;</div></td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td colspan="5" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>Report Date From 2013-12-10 To 2014-01-10</strong></div></td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td colspan="2" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="right"><strong>Opening Balance </strong></div></td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="right"><strong>0.00</strong></div></td>
+    </tr>
+    <tr>
+      <td width="3%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><strong>No.</strong></td>
+      <td width="9%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><strong>Date</strong></td>
+      <td width="26%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><strong> Customer </strong></td>
+      <td width="19%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><strong> Particulars </strong></td>
+      <td width="12%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>By Sales </strong></div></td>
+      <td width="11%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>By Collections </strong></div></td>
+      <td width="11%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>By Sales Return </strong></div></td>
+      <td width="9%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>By Payments </strong></div></td>
+      <td width="9%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>ByBalance </strong></div></td>
+    </tr>
+			Error in Query2Table 'tisapps_medit.master_transaction' doesn't exist

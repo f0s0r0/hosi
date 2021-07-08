@@ -1,0 +1,21 @@
+<html>
+<HEAD>
+<style type="text/css">
+body {	font-family: "Microsoft Sans Serif";
+font-size:10pt;
+margin:0px;}
+img	 { padding:0px;margin:0px;border: solid 0px white;}
+</style>
+</HEAD><BODY>
+<img src="http://www.cosninix.com/blog49/themes/default/images/header750x100.jpg" width="100">
+<div style="margin-left:12px;">
+<p>Invoice #10056</p>
+<table width="100%">
+<tr>
+<td width="20%"><b>usbst</b></td>
+<td width="40%">Usb stick 512Mb</td>
+<td width="40%">6.49</td>
+</tr>
+</table>
+</body>
+</html>

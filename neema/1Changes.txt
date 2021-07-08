@@ -1,0 +1,48 @@
+30-Oct-2013
+
+#####For cash no restriction on visit limit.
+
+Available limit - for first visit. - coming directly from regsitration
+
+#####Add plan name master - fixed and percent are not compulsory
+
+*****Sub menu - Billing Pay Later - Billing Finalize (2 new menus)
+
+*****Services - Masters - Popup
+*****Cosultation - Popup - Text Area
+#####BMI - Onfocus - Onchange event
+
+*****Generic Name column on pharmacy master
+
+*****Show hide additional boxes on click of ADD button.
+
+*****For same item multiple batch numbers.
+
+*****Background image.
+
+#####Running msg not on login logout pages.
+
+*****Chrome and IE is recommended.
+
+#######Remove Nurse Name Field
+
+#####Only for consultation - Remove multiple colors.
+
+
+
+
+
+
+
+
+
+03Oct2013
+
+addplanname1.php Select Plan Condition
+addplanname1.php Select Account Name
+
+if condition overall limit, overall limit text box compulsary
+
+add new field in plan master after validity date plan status dropdown box-active,discontinued
+
+add new field in account master account status dropodown box at last-active,discontinued. 

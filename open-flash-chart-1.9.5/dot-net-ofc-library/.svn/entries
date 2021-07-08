@@ -1,0 +1,34 @@
+8
+
+dir
+50
+https://openflashchart.svn.sourceforge.net/svnroot/openflashchart/dot-net-ofc-library
+https://openflashchart.svn.sourceforge.net/svnroot/openflashchart
+
+
+
+2007-11-13T23:37:44.830872Z
+47
+monk-e-boy
+
+
+svn:special svn:externals svn:needs-lock
+
+OpenFlashChart
+dir
+
+OpenFlashChart.sln
+file
+
+
+
+
+2007-09-22T13:03:02.000000Z
+d9580e87960e2a6d74872cdee69419d2
+2007-11-13T23:37:44.830872Z
+47
+monk-e-boy
+
+WebTest
+dir
+

@@ -1,0 +1,2 @@
+itemcode	itemname	quantity	rateperunit	batchnumber	expirydate	store	location
+111	CLOBEN G 20G	122	122	WW23	12/16	STORE1	BURUBURU

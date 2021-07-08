@@ -1,0 +1,76 @@
+<style type="text/css">
+<!--
+.bodytext31 {FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #3b3b3c; FONT-FAMILY: Tahoma; text-decoration:none
+}
+-->
+</style>
+<script language="javascript">
+
+function escapekeypressed()
+{
+	//alert(event.keyCode);
+	if(event.keyCode=='27'){ window.close(); }
+}
+
+</script>
+<!--onLoad="window.print();"-->
+<body  onkeydown="escapekeypressed()">
+<table id="AutoNumber3" style="BORDER-COLLAPSE: collapse" 
+            bordercolor="#666666" cellspacing="0" cellpadding="4" width="871" 
+            align="left" border="1">
+  <tbody>
+    
+            <tr>
+              <td colspan="5" align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>Purchase Report</strong></div></td>
+            </tr>
+            <tr>
+              <td colspan="5" align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>RUARAKA NEEMA UHAI HOSPITAL</strong>&nbsp;</div></td>
+            </tr>
+            <tr>
+              <td colspan="5" align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>Report Date From 2014-06-06 To 2014-07-06</strong></div></td>
+            </tr>
+           
+            <tr>
+              <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#ffffff"><strong>SNo.</strong></td>
+              <!--<td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#ffffff"><strong>PDF</strong></td>-->
+              <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#ffffff"><div align="left"><strong>Date </strong></div></td>
+              <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#ffffff"><div align="left"><strong>Bill No. </strong></div></td>
+              <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#ffffff"><strong> Supplier Name </strong></td>
+              <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#ffffff"><div align="left"><strong>Total</strong></div></td>
+            </tr>
+                        <tr >
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31">1</td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left"> 2014-07-05</div></td>
+			  <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left">  GRN-1</div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div class="bodytext31"> PAN PHARMACEUTICALS LTD.</div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="right"> 26000.00&nbsp;</div></td>
+            </tr>
+				            <tr >
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31">2</td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left"> 2014-07-06</div></td>
+			  <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left">  P-1</div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div class="bodytext31"> ASTERISKS LIMITED </div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="right"> 200.00&nbsp;</div></td>
+            </tr>
+				            <tr>
+             <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+              <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+              <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+              <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#FFFFFF"><div align="right"><strong>Total : </strong></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#FFFFFF"><div align="right"><strong>
+				26200.00</strong></div></td>
+            </tr>
+  </tbody>
+</table>
+</body>

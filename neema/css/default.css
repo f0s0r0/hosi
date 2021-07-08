@@ -1,0 +1,80 @@
+#sddm
+{ 
+	margin-left:10px;
+	padding: 0;
+	z-index: 30;
+	
+	font-weight:bold;
+	}
+
+#sddm li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float:left;
+	font: bold 11px Tahoma;
+	
+	}
+
+#sddm li a
+{	display: inline;,
+	margin: 0 0px 0 0;
+	padding: 0px 0px;
+	width: 90px;
+	
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none}
+
+
+
+
+.menubutton:hover
+{
+
+color:#000000;
+font-weight:bold;
+}
+
+.menubutton:active
+{
+
+color:#000000;
+font-weight:bold;
+}
+
+.menubutton:onclick
+{
+
+color:#000000;
+font-weight:bold;
+}
+
+.menubutton
+{
+height: 30px; width: 150px; color:#000000; font-weight:bold;font: Tahoma;
+}
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	
+	
+	}
+
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 0px 0px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		
+		color: #2875DE;
+		font-weight:bold;
+		font: 11px Tahoma;}
+
+	

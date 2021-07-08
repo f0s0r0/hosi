@@ -1,0 +1,187 @@
+<style type="text/css">
+<!--
+body {
+	
+	background-color: #FFFFFF;
+}
+.bodytext3 {	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #3B3B3C; FONT-FAMILY: Tahoma
+}
+-->
+</style>
+<style type="text/css">
+<!--
+.bodytext3 {FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #3b3b3c; FONT-FAMILY: Tahoma; text-decoration:none
+}
+.bodytext31 {FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #3b3b3c; FONT-FAMILY: Tahoma; text-decoration:none
+}
+.bodytext311 {FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #3b3b3c; FONT-FAMILY: Tahoma; text-decoration:none
+}
+-->
+.bal
+{
+border-style:none;
+background:none;
+text-align:right;
+}
+.bali
+{
+text-align:right;
+}
+</style>
+</head>
+
+<script src="js/datetimepicker_css.js"></script>
+
+<body>
+
+<table id="AutoNumber3" style="BORDER-COLLAPSE: collapse"
+            bordercolor="#666666" cellspacing="0" cellpadding="4" 
+            align="left" border="1">
+          <tbody>
+            				  	<tr>
+			<td align="center" colspan="7"><strong>Trial Balance</strong></td>
+			</tr>
+			
+			<tr>
+			<td align="center" colspan="7"><strong>Report From 2014-01-01 To 2014-07-09</strong></td>
+			</tr>
+            <tr>
+              <td colspan="2" width="47"  align="left" valign="center" 
+                bgcolor="#ffffff" class="bodytext31"><strong>No.</strong></td>
+                  <td colspan="2" width="225" align="left" valign="center"  
+                bgcolor="#ffffff" class="bodytext31"><strong> Description </strong></td>
+              <td colspan="2" width="284" align="right" valign="center"  
+                bgcolor="#ffffff" class="bodytext31"><strong>Debit</strong></td>
+				<td width="588" rowspan="2"  align="left" valign="top" bgcolor="#FFFFFF" >
+			
+				  <table width="616" id="AutoNumber3" style="BORDER-COLLAPSE: collapse; margin-top:-3px;" 
+            bordercolor="" cellspacing="0" cellpadding="4" 
+            align="left" border="1"> 
+				  <tr>
+				  <td colspan="2" width="12%"  align="left" valign="center" 
+                bgcolor="#ffffff" class="bodytext31"><strong>No.</strong></td>
+                  <td colspan="2" width="45%" align="left" valign="center"  
+                bgcolor="#ffffff" class="bodytext31"><strong> Description </strong></td>
+              <td colspan="2" width="20%" align="right" valign="center"  
+                bgcolor="#ffffff" class="bodytext31"><strong>Credit</strong></td>
+				</tr>
+					      
+					
+           <tr bgcolor="#FFFFFF">
+              <td colspan="2" class="bodytext31" valign="center"  align="left">1</td>
+                <td colspan="2" class="bodytext31" valign="center"  align="left">
+                <div class="bodytext31">INCOME</div></td>
+              <td colspan="2" class="bodytext31" valign="center"  align="right">
+			  14,305.60</td>
+           
+           </tr>
+						
+           <tr bgcolor="#FFFFFF">
+              <td colspan="2" class="bodytext31" valign="center"  align="left">2</td>
+                <td colspan="2" class="bodytext31" valign="center"  align="left">
+                <div class="bodytext31">OTHER INCOMES</div></td>
+              <td colspan="2" class="bodytext31" valign="center"  align="right">
+			  65,000.00</td>
+           
+           </tr>
+		      
+				
+           <tr bgcolor="#FFFFFF">
+              <td colspan="2" class="bodytext31" valign="center"  align="left">3</td>
+                <td colspan="2" class="bodytext31" valign="center"  align="left">
+                <div class="bodytext31">ACCOUNTS PAYABLE</div></td>
+              <td colspan="2" class="bodytext31" valign="center"  align="right">
+			  26,180.00</td>
+           
+           </tr>
+		   							
+           <tr bgcolor="#FFFFFF">
+              <td colspan="2" class="bodytext31" valign="center"  align="left">4</td>
+                <td colspan="2" class="bodytext31" valign="center"  align="left">
+                <div class="bodytext31">PATIENT DEPOSITS</div></td>
+              <td colspan="2" class="bodytext31" valign="center"  align="right">
+			  4,200.00</td>
+           
+           </tr>
+		   				
+		         <tr>
+			 <td colspan="2" class="bodytext31" valign="center"  align="left"></td>
+			  <td colspan="2" class="bodytext31" valign="center"  align="right"><strong>Total</strong></td>
+			  <td colspan="2" class="bodytext31" valign="center"  align="right">109,685.60</td>
+			 </tr>
+				  </table>
+			  </td>
+       
+            </tr>
+			
+						
+           <tr bgcolor="#FFFFFF">
+              <td colspan="2" class="bodytext31" valign="center"  align="left">1</td>
+                <td colspan="2" class="bodytext31" valign="center"  align="left">
+                <div class="bodytext31">CASH IN HAND</div></td>
+              <td colspan="2" class="bodytext31" valign="center"  align="right">
+			  79,805.60 </td>
+           
+           </tr>
+						
+           <tr bgcolor="#FFFFFF">
+              <td colspan="2" class="bodytext31" valign="center"  align="left">2</td>
+                <td colspan="2" class="bodytext31" valign="center"  align="left">
+                <div class="bodytext31">STAFF COSTS</div></td>
+              <td colspan="2" class="bodytext31" valign="center"  align="right">
+			  500.00</td>
+           
+           </tr>
+		   			
+           <tr bgcolor="#FFFFFF">
+              <td colspan="2" class="bodytext31" valign="center"  align="left">3</td>
+                <td colspan="2" class="bodytext31" valign="center"  align="left">
+                <div class="bodytext31">OFFICE EXPENSES</div></td>
+              <td colspan="2" class="bodytext31" valign="center"  align="right">
+			  2,000.00</td>
+           
+           </tr>
+		   			
+           <tr bgcolor="#FFFFFF">
+              <td colspan="2" class="bodytext31" valign="center"  align="left">4</td>
+                <td colspan="2" class="bodytext31" valign="center"  align="left">
+                <div class="bodytext31">COST OF SALES</div></td>
+              <td colspan="2" class="bodytext31" valign="center"  align="right">
+			  20,180.00</td>
+           
+           </tr>
+		   			
+           <tr bgcolor="#FFFFFF">
+              <td colspan="2" class="bodytext31" valign="center"  align="left">5</td>
+                <td colspan="2" class="bodytext31" valign="center"  align="left">
+                <div class="bodytext31">ACCOUNTS RECEIVABLE</div></td>
+              <td colspan="2" class="bodytext31" valign="center"  align="right">
+			  15,980.00</td>
+           
+           </tr>
+		   	     
+				
+           <tr bgcolor="#FFFFFF">
+              <td colspan="2" class="bodytext31" valign="center"  align="left">6</td>
+                <td colspan="2" class="bodytext31" valign="center"  align="left">
+                <div class="bodytext31">PATIENT DEPOSITS</div></td>
+              <td colspan="2" class="bodytext31" valign="center"  align="right">
+			  1,200.00</td>
+           
+           </tr>
+		   					
+							         <tr>
+			 <td colspan="2" class="bodytext31" valign="center"  align="left"></td>
+			  <td colspan="2" class="bodytext31" valign="center"  align="right"><strong>Total</strong></td>
+			  <td colspan="2" class="bodytext31" valign="center"  align="right">119,665.60</td>
+			 </tr>
+		
+			  </tbody>
+        </table></td>
+      </tr>
+	
+			         
+</table>
+</table>
+</body>
+</html>

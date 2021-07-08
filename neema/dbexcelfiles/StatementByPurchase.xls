@@ -1,0 +1,153 @@
+<style type="text/css">
+<!--
+.bodytext31 {FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #3b3b3c; FONT-FAMILY: Tahoma; text-decoration:none
+}
+-->
+</style>
+<script language="javascript">
+
+function escapekeypressed()
+{
+	//alert(event.keyCode);
+	if(event.keyCode=='27'){ window.close(); }
+}
+
+</script>
+<!--onLoad="window.print();"-->
+<body  onkeydown="escapekeypressed()">
+<table id="AutoNumber3" style="BORDER-COLLAPSE: collapse" 
+            bordercolor="#666666" cellspacing="0" cellpadding="4" width="871" 
+            align="left" border="1">
+  <tbody>
+    
+            <tr>
+              <td colspan="5" align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>Purchase Report</strong></div></td>
+            </tr>
+            <tr>
+              <td colspan="5" align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>GURUNANAK RAMGARHIA SIKH HOSPITAL</strong>&nbsp;</div></td>
+            </tr>
+            <tr>
+              <td colspan="5" align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>Report Date From 2015-03-29 To 2015-04-29</strong></div></td>
+            </tr>
+           
+            <tr>
+              <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#ffffff"><strong>SNo.</strong></td>
+              <!--<td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#ffffff"><strong>PDF</strong></td>-->
+              <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#ffffff"><div align="left"><strong>Date </strong></div></td>
+              <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#ffffff"><div align="left"><strong>Bill No. </strong></div></td>
+              <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#ffffff"><strong> Supplier Name </strong></td>
+              <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#ffffff"><div align="left"><strong>Total</strong></div></td>
+            </tr>
+                        <tr >
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31">1</td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left"> 2015-04-02</div></td>
+			  <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left">  GRN-29</div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div class="bodytext31"> ABC SUPPLIERS LTD</div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="right"> 24.00&nbsp;</div></td>
+            </tr>
+				            <tr >
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31">2</td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left"> 2015-04-04</div></td>
+			  <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left">  P-19</div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div class="bodytext31"> BEL-AIRE INTERNATIONAL LTD - AHC LIFESTYLE </div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="right"> 1200.00&nbsp;</div></td>
+            </tr>
+				            <tr >
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31">3</td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left"> 2015-04-06</div></td>
+			  <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left">  P-20</div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div class="bodytext31"> AMIKEN LTD  - AHC BURUBURU </div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="right"> 1100.00&nbsp;</div></td>
+            </tr>
+				            <tr >
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31">4</td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left"> 2015-04-20</div></td>
+			  <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left">  GRN-30</div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div class="bodytext31"> </div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="right"> 3.02&nbsp;</div></td>
+            </tr>
+				            <tr >
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31">5</td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left"> 2015-04-20</div></td>
+			  <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left">  GRN-30</div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div class="bodytext31"> </div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="right"> 3.02&nbsp;</div></td>
+            </tr>
+				            <tr >
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31">6</td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left"> 2015-04-21</div></td>
+			  <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left">  GRN-31</div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div class="bodytext31"> </div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="right"> 2.99&nbsp;</div></td>
+            </tr>
+				            <tr >
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31">7</td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left"> 2015-04-21</div></td>
+			  <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left">  GRN-32</div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div class="bodytext31"> </div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="right"> 4.00&nbsp;</div></td>
+            </tr>
+				            <tr >
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31">8</td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left"> 2015-04-21</div></td>
+			  <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left">  GRN-33</div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div class="bodytext31"> </div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="right"> 26.98&nbsp;</div></td>
+            </tr>
+				            <tr >
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31">9</td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left"> 2015-04-21</div></td>
+			  <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left">  P-21</div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div class="bodytext31"> AMIKEN LTD  - AHC BURUBURU </div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="right"> 26100.00&nbsp;</div></td>
+            </tr>
+				            <tr >
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31">10</td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left"> 2015-04-24</div></td>
+			  <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left">  P-22</div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div class="bodytext31"> AMIKEN LTD  - AHC BURUBURU </div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="right"> 6.00&nbsp;</div></td>
+            </tr>
+				            <tr >
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31">11</td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left"> 2015-04-29</div></td>
+			  <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left">  GRN-34</div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div class="bodytext31"> </div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="right"> 41.04&nbsp;</div></td>
+            </tr>
+				            <tr >
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31">12</td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left"> 2015-04-29</div></td>
+			  <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left">  P-23</div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div class="bodytext31"> AMIKEN LTD  - AHC BURUBURU </div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="right"> 10.00&nbsp;</div></td>
+            </tr>
+				            <tr >
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31">13</td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left"> 2015-04-29</div></td>
+			  <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="left">  P-24</div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div class="bodytext31"> AMIKEN LTD  - AHC BURUBURU </div></td>
+              <td align="left" valign="center" bordercolor="#f3f3f3" bgcolor="#FFFFFF" class="bodytext31"><div align="right"> 2324.00&nbsp;</div></td>
+            </tr>
+				            <tr>
+             <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+              <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+              <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+              <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#FFFFFF"><div align="right"><strong>Total : </strong></div></td>
+              <td class="bodytext31" valign="center"  align="left" 
+                bgcolor="#FFFFFF"><div align="right"><strong>
+				30845.05</strong></div></td>
+            </tr>
+  </tbody>
+</table>
+</body>

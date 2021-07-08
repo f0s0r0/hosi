@@ -1,0 +1,139 @@
+<style type="text/css">
+<!--
+.style1 {font-size: 10px}
+.style12 {font-size: 12px; font-weight: bold; }
+.style13 {font-size: 12px}
+.bodytext31 {FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #3b3b3c; FONT-FAMILY: Tahoma
+}
+-->
+</style>
+<script language="javascript">
+
+function escapekeypressed()
+{
+	//alert(event.keyCode);
+	if(event.keyCode=='27'){ window.close(); }
+}
+
+</script>
+<!--onLoad="window.print();"-->
+<body  onkeydown="escapekeypressed()">
+<table id="AutoNumber3" style="BORDER-COLLAPSE: collapse" 
+            bordercolor="#666666" cellspacing="0" cellpadding="4" width="960" 
+            align="left" border="1">
+  <tbody>
+    <tr>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td colspan="5" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>Statement By Supplier </strong></div></td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td colspan="5" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>AVENUE HEALTHCARE LTD</strong>&nbsp;</div></td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td colspan="5" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="center"><strong>Report Date From 2015-01-01 To 2015-10-07</strong></div></td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31">&nbsp;</td>
+      <td colspan="2" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="right"><strong>Opening Balance </strong></div></td>
+      <td align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="right"><strong>0.00</strong></div></td>
+    </tr>
+    <tr>
+      <td width="3%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><strong>No.</strong></td>
+      <td width="8%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><strong>Date</strong></td>
+      <td width="19%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><strong> Supplier </strong></td>
+      <td width="20%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><strong> Particulars </strong></td>
+      <td width="10%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>By Purchase </strong></div></td>
+      <td width="9%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>By Payments </strong></div></td>
+      <td width="9%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>By  Return </strong></div></td>
+      <td width="8%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>By Payments </strong></div></td>
+      <td width="14%" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#ffffff" class="bodytext31"><div align="left"><strong>ByBalance </strong></div></td>
+    </tr>
+			    <tr>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF"><div align="right"><strong>Total : </strong></div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF"><div align="right"><strong>0.00</strong></div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF"><div align="right"><strong>0.00</strong></div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF"><div align="right"><strong>0.00</strong></div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF"><div align="right"><strong>0.00</strong></div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF"><div align="right"></div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF">&nbsp;</td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF"><div align="right"></div></td>
+      <td colspan="2" align="left" valign="center" bordercolor="#f3f3f3" 
+                bgcolor="#FFFFFF" class="bodytext31"><div align="right"><strong>Closing Balance </strong></div></td>
+      <td class="bodytext31" valign="center" bordercolor="#f3f3f3" align="left" 
+                bgcolor="#FFFFFF"><div align="right"><strong>0.00</strong></div></td>
+    </tr>
+  </tbody>
+</table>
+</body>

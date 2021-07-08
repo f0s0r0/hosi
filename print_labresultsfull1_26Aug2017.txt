@@ -1,0 +1,357 @@
+<?php
+session_start();
+error_reporting(0);
+//date_default_timezone_set('Asia/Calcutta');
+include ("db/db_connect.php");
+//include ("includes/loginverify.php");
+$updatedatetime = date("Y-m-d H:i:s");
+$indiandatetime = date ("d-m-Y H:i:s");
+
+$username = $_SESSION["username"];
+$ipaddress = $_SERVER["REMOTE_ADDR"];
+$companyanum = $_SESSION["companyanum"];
+$companyname = $_SESSION["companyname"];
+$financialyear = $_SESSION["financialyear"];
+$dateonly1 = date("Y-m-d");
+$timeonly= date("H:i:s");
+$colorloopcount = '';
+$sno = '';
+$pagebreak = '';
+$num322 = 10;
+$num388 = 0;
+ob_start();
+
+if (isset($_REQUEST["patientcode"])) { $patientcode = $_REQUEST["patientcode"]; } else { $patientcode = ""; }
+if (isset($_REQUEST["visitcode"])) { $visitcode= $_REQUEST["visitcode"]; } else { $visitcode = ""; }
+if (isset($_REQUEST["ADate1"])) { $fromdate = $_REQUEST["ADate1"]; } else { $fromdate = ""; }
+if (isset($_REQUEST["ADate2"])) { $todate = $_REQUEST["ADate2"]; } else { $todate = ""; }
+
+$query65= "select * from master_visitentry where patientcode='$patientcode'";
+$exec65=mysql_query($query65) or die("error in query65".mysql_error());
+$res65=mysql_fetch_array($exec65);
+$Patientname=$res65['patientfullname'];   
+
+$query69="select * from master_customer where customercode='$patientcode'";
+$exec69=mysql_query($query69) or die(mysql_error());
+$res69=mysql_fetch_array($exec69);
+$patientaccount=$res69['accountname'];
+
+
+$query78="select * from master_visitentry where patientcode='$patientcode' and visitcode='$visitcode'";
+$exec78=mysql_query($query78) or die(mysql_error());
+$res78=mysql_fetch_array($exec78);
+$patientgender=$res78['gender'];
+
+$query751 = "select * from master_customer where customercode = '$patientcode'";
+$exec751 = mysql_query($query751) or die(mysql_error());
+$res751 = mysql_fetch_array($exec751);
+$dob = $res751['dateofbirth'];
+
+$patientage = calculate_age($dob);
+
+		function calculate_age($birthday)
+{
+    $today = new DateTime();
+    $diff = $today->diff(new DateTime($birthday));
+
+    if ($diff->y)
+    {
+        return $diff->y . ' Years';
+    }
+    elseif ($diff->m)
+    {
+        return $diff->m . ' Months';
+    }
+    else
+    {
+        return $diff->d . ' Days';
+    }
+}
+
+$query70="select * from master_accountname where auto_number='$patientaccount'";
+$exec70=mysql_query($query70);
+$res70=mysql_fetch_array($exec70);
+$accountname=$res70['accountname'];
+
+$query2 = "select * from master_company where auto_number = '$companyanum'";
+$exec2 = mysql_query($query2) or die ("Error in Query2".mysql_error());
+$res2 = mysql_fetch_array($exec2);
+$companyname = $res2["companyname"];
+$address1 = $res2["address1"];
+$address2 = $res2["address2"];
+$area = $res2["area"];
+$city = $res2["city"];
+$pincode = $res2["pincode"];
+$emailid1 = $res2["emailid1"];
+$phonenumber1 = $res2["phonenumber1"];
+
+$query381="select * from resultentry_lab where patientcode = '$patientcode' and patientvisitcode = '$visitcode' and resultstatus='completed' and publishstatus='completed' and recorddate between '$fromdate' and '$todate' group by itemcode";
+		$exec381=mysql_query($query381);
+		$num381=mysql_num_rows($exec381);
+		while($res381=mysql_fetch_array($exec381))
+		{ 
+		$res381itemcode=$res381['itemcode'];
+?>
+
+<page>
+
+
+	<table width="750" border="0" cellspacing="0" cellpadding="2">
+	<tr>
+	
+	  <td rowspan="3" align="left">
+      <?php
+			$query3showlogo = "select * from settings_billhospital where companyanum = '$companyanum'";
+			$exec3showlogo = mysql_query($query3showlogo) or die ("Error in Query3showlogo".mysql_error());
+			$res3showlogo = mysql_fetch_array($exec3showlogo);
+			$showlogo = $res3showlogo['showlogo'];
+			if ($showlogo == 'SHOW LOGO')
+			{
+			?>
+      <img src="logofiles/<?php echo $companyanum;?>.jpg" width="100" height="75" />      <?php
+			}
+	?></td>
+			<td colspan="4" align="left">
+	        <?php
+			$strlen3 = strlen($address1);
+			$totalcharacterlength3 = 35;
+			$totalblankspace3 = 35 - $strlen3;
+			$splitblankspace3 = $totalblankspace3 / 2;
+			for($i=1;$i<=$splitblankspace3;$i++)
+			{
+			$address1 = ' '.$address1.' ';
+			}
+			?>
+			<strong><?php echo $companyname; ?></strong></td>
+	  </tr>
+		<tr>
+			<td colspan="4" align="left">
+			<?php
+			$address3 = "PHONE: ".$phonenumber1;
+			$strlen3 = strlen($address3);
+			$totalcharacterlength3 = 35;
+			$totalblankspace3 = 35 - $strlen3;
+			$splitblankspace3 = $totalblankspace3 / 2;
+			for($i=1;$i<=$splitblankspace3;$i++)
+			{
+			$address3 = ' '.$address3.' ';
+			}
+			?>
+	        <strong><?php echo $address3; ?></strong></td>		
+		</tr>	
+		<tr>
+		  <td colspan="4" align="left">
+			
+			
+			
+			<strong><?php echo "E-Mail :"."info@runeemahospital.org"; ; ?></strong></td>
+		</tr>
+		<tr>
+		  <td colspan="5" style="border-bottom:1px solid black;">&nbsp;</td>
+	    </tr>
+		
+		<tr>
+		  <td colspan="5">&nbsp;</td>
+	    </tr>
+		<tr>
+			<input name="billnumberprefix" id="billnumberprefix" value="<?php echo $billnumberprefix; ?>" type="hidden" style="border: 1px solid #001E6A"  size="5" /> 
+			<input type="hidden" name="patientcode" value="<?php echo $patientcode; ?>">
+			<td><strong>Patient </strong></td>
+			<td width="12%" align="left" valign="middle" nowrap="nowrap">
+		  <input name="customername" type="hidden" id="customer" value="<?php echo $Patientname; ?>" style="border: 1px solid #001E6A;" size="40" autocomplete="off" readonly/><?php echo $Patientname; ?></td>
+			<td width="8%" ><input name="latestbillnumber" id="latestbillnumber" value="<?php echo $billnumber; ?>" type="hidden" size="5">&nbsp;</td>
+			
+		  <td width="22%" ><input name="latestbillnumber" id="latestbillnumber" value="<?php echo $billnumber; ?>" type="hidden" size="5">
+	      <strong>Account</strong></td>
+			<td width="27%"><input name="billnumberpostfix" id="billnumberpostfix" value="<?php echo $billnumberpostfix; ?>" style="border: 1px solid #001E6A"  size="5" type="hidden" />
+		    <?php echo $accountname; ?></td>
+		</tr>
+
+		<tr>
+					
+					 <td width="31%" align="left" valign="middle" nowrap="nowrap"><strong>Patient Code</strong></td>
+					<td align="left" valign="top" >
+					<input name="customercode" type="hidden" id="customercode" value="<?php echo $patientcode; ?>" style="border: 1px solid #001E6A" size="18" rsize="20" readonly/><?php echo $patientcode; ?></td>
+		  <td width="8%" ><input name="latestbillnumber" id="latestbillnumber" value="<?php echo $billnumber; ?>" type="hidden" size="5"></td>
+					<td align="left" valign="top" ><strong>Age</strong></td>                
+					<td align="left" valign="top" ><input name="account" type="hidden" id="account" value="<?php echo $accountname; ?>" style="border: 1px solid #001E6A" size="18" rsize="20" readonly/>
+				    <?php echo $patientage; ?></td>	
+	  </tr>
+		<tr>
+		  <td align="left" valign="middle" nowrap="nowrap"><strong>Visit Code</strong></td>
+		  <td align="left" valign="top" ><?php echo $visitcode; ?></td>
+		  <td >&nbsp;</td>
+		  <td align="left" valign="middle" nowrap="nowrap"><strong>Gender</strong></td>
+		 <td align="left" valign="middle" nowrap="nowrap"><?php echo $patientgender; ?></td>
+	  </tr>
+	  <tr>
+		  <td align="left" valign="middle" nowrap="nowrap">&nbsp;</td>
+		  <td align="left" valign="top" >&nbsp;</td>
+		  <td >&nbsp;</td>
+		  <td align="left" valign="middle" nowrap="nowrap">&nbsp;</td>
+		 <td align="left" valign="middle" nowrap="nowrap">&nbsp;</td>
+	  </tr>
+	<tr>
+		  <td colspan="5" style="border-bottom:1px solid black;">&nbsp;</td>
+	    </tr>
+		<?php
+		$pagecount='';
+		$query38="select * from resultentry_lab where patientcode = '$patientcode' and patientvisitcode = '$visitcode' and resultstatus='completed' and publishstatus='completed' and itemcode = '$res381itemcode' and recorddate between '$fromdate' and '$todate' group by itemcode";
+		$exec38=mysql_query($query38);
+		$num38=mysql_num_rows($exec38);
+		$num388+=$num38;
+		while($res38=mysql_fetch_array($exec38))
+		{ 
+		$res38itemcode=$res38['itemcode'];
+		$res38itemname=$res38['itemname']; 
+		$date1=$res38['recorddate'];
+		$date1=date("d-m-Y",strtotime($date1));
+		$time1=$res38['recordtime'];
+		
+		
+		?>
+		<tr>
+		  <td colspan="5" align="left" valign="middle" nowrap="nowrap">
+		  <table width="734" border="0">            
+
+			
+            <tr>
+				<td width="260" align="left" valign="middle">Test</td>
+				<td width="222" align="left" valign="middle" style="word-wrap: break-word;">Results</td>
+					<td width="238"  align="left" valign="middle">Reference</td>
+			</tr>
+		            <?php if($patientcode != 'walkin')
+					 {
+					 ?>
+					<tr>
+					<td colspan="5" align="left" valign="middle"><strong><?php echo $res38itemname; ?></strong></td>
+					</tr>
+					<?php } ?>
+				  
+				<?php  
+				 $query32="select * from resultentry_lab where patientcode = '$patientcode' and patientvisitcode = '$visitcode' and resultstatus='completed' and publishstatus='completed' and itemcode='$res38itemcode' and patientcode <> 'walkin' ";
+				$exec32=mysql_query($query32);
+				$num32=mysql_num_rows($exec32);
+				$num322 +=$num32;
+				while($res32=mysql_fetch_array($exec32))
+				 {
+					$referencename=$res32['referencename'];
+					
+					$query23 = "select * from master_lab where referencename='$referencename' and itemcode='$res38itemcode' and status <> 'deleted'";
+					$exc23 = mysql_query($query23) or die(mysql_error());
+					$res23 = mysql_fetch_array($exc23);
+					$referenceunit = $res23['referenceunit'];
+					$referenceunit = htmlentities($referenceunit);
+					$referencerange=$res23['referencerange'];
+					$referencerange = htmlentities($referencerange);
+					$resultvalue=$res32['resultvalue'];
+					$resultvalue = htmlentities($resultvalue);
+					$resultenteredby=$res32['username'];
+			    ?>
+				<tr>
+				<td align="left" valign="middle" width="260"><?php echo $referencename; ?></td>
+				<td align="left" valign="middle"  width="150" ><?php echo str_replace(",",", ",$resultvalue).' '.$referenceunit ?></td>
+				<td align="left" valign="middle" width="238"><?php echo $referencerange; ?></td>
+				</tr>
+<!--				 [[page_cu]]/[[page_nb]]
+-->				<?php 		
+				  }
+				?>
+				  <tr>
+					<td align="left" valign="middle">&nbsp;</td>
+					<td align="left" valign="middle">&nbsp;</td>
+					</tr>
+                    
+                    
+                 
+                    
+                    
+				  
+          </table>		  </td>
+	  </tr>
+	<tr><td>&nbsp;</td></tr>
+	 <?php  }?> 
+     <?php
+				
+			$query56="select recorddate, recordtime from resultentry_lab where patientcode = '$patientcode' and patientvisitcode = '$visitcode' and resultstatus='completed' and publishstatus='completed' and recorddate between '$fromdate' and '$todate' group by itemcode";
+				$exec56=mysql_query($query56);
+				//$num55=mysql_num_rows($exec55);	
+				$res56=mysql_fetch_array($exec56);
+				 
+				$userfulldate = $res56['recorddate']." ".$res56['recordtime'];
+				
+				
+				
+				$query55="select employeename from master_employee where username = '$resultenteredby' ";
+				$exec55=mysql_query($query55);
+				//$num55=mysql_num_rows($exec55);	
+				$res55=mysql_fetch_array($exec55);
+				 
+				$userfullname = $res55['employeename'];
+				$trrows =  $num322 + 3*($num388);
+				$temp = 40;
+				$t = $trrows-($temp*floor($trrows/$temp));
+				$j = $temp - $t;
+				$calc = 1-(($trrows/$temp)-floor($trrows/$temp));
+				$cal = floor($trrows * $calc);
+				for($i=0;$i<$j;$i++){
+			?>
+            	
+            <?php }?>
+               
+</table>
+<page_footer>
+<table>
+	 <tfoot id="footer">
+                <tr>
+					<td colspan="5" align="left" valign="middle" >Technician &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <strong><?php echo strtoupper($resultenteredby); ?></strong></td>
+					</tr>
+                    
+<!--                    <tr>
+                    
+                    <td align="left" valign="middle">Result Entered On: <strong><?php echo $userfulldate; ?></strong></td>
+                    </tr>
+-->                    
+                    
+					 <tr>
+					<td align="left" valign="middle">&nbsp;</td>
+					</tr>
+					 <tr>
+					<td align="left" valign="middle">&nbsp;</td>
+					</tr>
+					 <tr>
+					<td align="left" valign="middle" colspan="2"><strong>Sign : .............................</strong></td>
+					<td align="left" width="350" valign="middle"><strong></strong></td>
+					<td align="right" valign="middle"><strong>Printed On : <?php echo $userfulldate; ?></strong></td>
+					</tr>
+                    </tfoot>
+</table>
+</page_footer>
+</page>
+<?php
+}
+?>
+
+		<!--<tr>
+			<td align="left" valign="middle" class="bodytext32">Results Posted By:
+			<input type="hidden" name="user" id="user" size="5" style="border: 1px solid #001E6A" value="<?php echo $_SESSION['username']; ?>" readonly="readonly"><strong><?php //echo strtoupper($_SESSION['username']); ?></strong></td>
+		</tr>-->
+	
+<?php
+    $content = ob_get_clean();
+
+    // convert in PDF
+    require_once('html2pdf/html2pdf.class.php');
+    try
+    {
+        $html2pdf = new HTML2PDF('P', 'A4', 'en');
+//      $html2pdf->setModeDebug();
+        $html2pdf->setDefaultFont('Arial');
+        $html2pdf->writeHTML($content, isset($_GET['vuehtml']));
+        $html2pdf->Output('LabResultsFull.pdf');
+    }
+    catch(HTML2PDF_exception $e) {
+        echo $e;
+        exit;
+    }
+?>
